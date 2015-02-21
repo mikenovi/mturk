@@ -4,9 +4,11 @@ require 'rubygems'
 require 'hoe'
 require './lib/mturk/version.rb'
 
+Hoe.plugin :gemspec
+
 Hoe.spec 'mturk' do
   self.version = MTurk::VERSION.dup
-  developer 'David J Parrott', 'valthon@nothlav.net'
+  developer 'Michael Novi', 'me@michaelnovi.com'
   license 'APLv2'
   extra_deps << ['highline','>= 1.2.7']
   extra_deps << ['nokogiri','>= 1.4']
@@ -14,7 +16,7 @@ Hoe.spec 'mturk' do
   need_zip
 
   self.summary = 'Ruby libraries for working with Mechanical Turk'
-  self.email = 'requester@mturk.com'
+  self.email = 'me@michaelnovi.com'
   self.urls = ["https://requester.mturk.com/"]
 end
 
