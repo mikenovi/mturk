@@ -33,7 +33,7 @@ class DataReader
   
   def load( filename, format=:Tabular )
     return {} unless File.exist? filename
-    raw_data = ERB,new(File.read( filename )).result
+    raw_data = ERB.new(File.read( filename )).result
     case format
     when :Tabular
       @data = parse_csv( raw_data, "\t" )

@@ -1,9 +1,9 @@
 # -*- encoding: utf-8 -*-
-# stub: mturk 1.9.0.20150221102815 ruby lib
+# stub: mturk 1.9.0.20150221103550 ruby lib
 
 Gem::Specification.new do |s|
   s.name = "mturk"
-  s.version = "1.9.0.20150221102815"
+  s.version = "1.9.0.20150221103550"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
