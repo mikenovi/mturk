@@ -1,0 +1,4 @@
+Mechanical Turk Ruby Libraries
+Copyright 2007-2014 Amazon Technologies, Inc.
+
+This product includes software developed by Amazon Technologies, Inc.

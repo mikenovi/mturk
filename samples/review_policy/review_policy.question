@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
+  <Question>
+    <QuestionIdentifier>q1</QuestionIdentifier>
+    <QuestionContent>
+      <Text>What is 1 + 1?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <FreeTextAnswer/>
+    </AnswerSpecification>
+  </Question>
+  <Question>
+    <QuestionIdentifier>q2</QuestionIdentifier>
+    <QuestionContent>
+      <Text>What is 2 + 2?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <FreeTextAnswer/>
+    </AnswerSpecification>
+  </Question>
+  <Question>
+    <QuestionIdentifier>q3</QuestionIdentifier>
+    <QuestionContent>
+      <Text>What color is the sky?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <FreeTextAnswer/>
+    </AnswerSpecification>
+  </Question>
+</QuestionForm>
